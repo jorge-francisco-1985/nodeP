@@ -1,0 +1,26 @@
+{
+  "name": "nodeP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorge-francisco-1985/nodeP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorge-francisco-1985/nodeP/issues"
+  },
+  "homepage": "https://github.com/jorge-francisco-1985/nodeP#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.12",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
