@@ -1,6 +1,10 @@
 const express=require('express');
 const morgan=require('morgan');
+const mongoose=require('mongoose');
 const app=express();
+mongoose.connect('mongodb://localhost:27017/nodeP')
+.then(db=>console.log("Conectado a mongodb"))
+.catch(err=>console.error(err));
 
 
 //Settings
